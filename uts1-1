@@ -1,0 +1,14 @@
+npm = int(input("Masukkan NPM Anda = "))
+ganjil = 0
+genap = 0
+while (npm != 0):
+  digit = npm % 10
+  npm = int(npm / 10)
+  if (digit % 2 == 0):
+    genap += 1
+  else:
+    ganjil += 1
+print("Jumlah Bilangan genap : ", end="")
+print(genap)
+print("Jumlah Bilangan ganjil : ", end="")
+print(ganjil)
